@@ -1,0 +1,32 @@
+.primary-txt {
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  
+  .secondary-txt {
+    background: silver;
+    border: 1px solid var(--primary-color);
+    text-align: right;
+    padding: 0 0.8em;
+    max-width: 10em;
+  }
+  
+  button {
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .custom-txt {
+    color: white;
+    padding: 20px 30px;
+    min-width: 240px;
+  }
+  
+  @media (max-width: 991px) {
+    .custom-txt {
+      padding: 10px 15px;
+      min-width: 120px;
+      font-size: 12px;
+    }
+  }
+  

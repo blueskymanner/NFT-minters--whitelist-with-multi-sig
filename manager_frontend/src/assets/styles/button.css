@@ -1,0 +1,50 @@
+.primary-btn {
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 1px solid var(--primary-color);
+}
+
+.tertiary-btn {
+  background: var(--primary-color);
+  border: 1px solid var(--background-color-1);
+}
+
+.mint-btn {
+  border: 1px wheat solid;
+  color:antiquewhite;
+  padding: 0.1em 0.9em;
+  margin-left: 2em;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+.custom-btn {
+  color: white;
+  padding: 20px 30px;
+  min-width: 240px;
+}
+
+.action-btn {
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  /* max-height: 30px; */
+  margin: 0 0.4em;
+}
+
+@media (max-width: 991px) {
+  .custom-btn {
+    padding: 10px 15px;
+    min-width: 120px;
+    font-size: 12px;
+  }
+}

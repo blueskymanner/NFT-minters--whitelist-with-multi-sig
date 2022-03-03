@@ -1,0 +1,32 @@
+.phase-check-box {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phase-check-box > i {
+  font-size: 30px;
+}
+
+@media (max-width: 991px) {
+  .phase-check-box {
+    width: 30px;
+    height: 30px;
+  }
+
+  .phase-check-box > i {
+    font-size: 20px;
+  }
+
+  .phase-label {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .phase-label {
+    font-size: 12px;
+  }
+}
